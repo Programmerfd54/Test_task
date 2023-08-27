@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () =>{
                 `<td>${user.email}</td>`,
                 `<td>${user.registration_date}</td>`,
                 `<td>${user.rating}</td>`,
-                `<td><img class="close" src="img/cancel.svg" alt="delete"></td>`
+                `<td><img class="close" src="cancel.svg" alt="delete"></td>`
             ];
 
             cells.forEach(cellText =>{
