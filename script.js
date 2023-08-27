@@ -210,14 +210,14 @@ document.addEventListener("DOMContentLoaded", () =>{
             usersData = usersData.filter(user => user.id !== currentUserIdToDelete);
             handleUserDeletion(); // Вызываем функцию после удаления пользователя
             currentUserIdToDelete = null;
-            deleteModal.style.display = "none"; // Закрываем модальное окно
+            deleteModal.style.display = "none"; 
             console.log('Yes')
         }
     });
 
     noButton.addEventListener("click", () => {
         currentUserIdToDelete = null;
-        deleteModal.style.display = "none"; // Закрываем модальное окно
+        deleteModal.style.display = "none";
         enableOtherActivities()
         console.log('NO')
 
@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         nextPageLink.style.pointerEvents = "auto";
 
         clearBtn.disabled = false
-        clearBtn.style.display = "block"; // Показываем кнопку "Очистить фильтр"
+        clearBtn.style.display = "block"; 
 
     }
     function handleUserDeletion() {
