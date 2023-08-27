@@ -56,9 +56,7 @@ document.addEventListener("DOMContentLoaded", () =>{
                         deleteModal.style.display = "block";
                         disableOtherActivities()
                     });
-                    // Вам необходимо добавить следующую строку, чтобы установить путь к изображению
                     img.src = "cancel.svg";
-                    // Затем добавьте img в ячейку (cell)
                     cell.appendChild(img);
                 } else {
                     cell.innerHTML = cellText;
